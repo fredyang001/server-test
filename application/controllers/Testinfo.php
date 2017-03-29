@@ -14,7 +14,7 @@ class Testinfo extends Application {
 		$domain = (strpos($_SERVER['SERVER_NAME'], '.local') > 1) ? 'local' : 'jlparry.com';
 		$protocol = (strpos($_SERVER['SERVER_NAME'], '.local') > 1) ? 'http' : 'https';
 		$this->data['umbrella'] = $protocol . '://' . $subdomain . '.' . $domain;
-		$this->data['umbrella'] = 'https://umbrella.jlparry.com';
+//		$this->data['umbrella'] = 'https://umbrella.jlparry.com';
 		$this->data['title'] = 'Test Information Services';
 		$this->data['pagebody'] = 'infopage';
 		$this->data['workparms'] = array();
